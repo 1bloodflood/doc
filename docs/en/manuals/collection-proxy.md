@@ -143,7 +143,7 @@ You control the scale factor and the scaling mode by sending the proxy a `set_ti
 
 ```lua
 -- update loaded world at one-fifth-speed.
-msg.post("#myproxy", "set_time_step", {factor = 0.2, mode = 1}
+msg.post("#myproxy", "set_time_step", {factor = 0.2, mode = 1})
 ```
 
 To see what's happening when changing the time step, we can create an object with the following code in a script component and put it in the collection we're altering the timestep of:
